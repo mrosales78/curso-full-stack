@@ -1,0 +1,25 @@
+form{
+    display: flex;
+    flex-direction: column;
+
+
+}
+body{
+    display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+background-color: blueviolet
+
+
+
+}
+div{
+    font-size: 20px;
+    font-weight: bold;
+
+
+}
+button:hover{
+    background-color:lightgreen;
+}
