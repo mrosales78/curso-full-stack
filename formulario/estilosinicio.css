@@ -1,0 +1,23 @@
+.top-header {
+    background-color: lightgreen;
+    padding: 10px;
+}
+header .logoybarra {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around
+    text-align:justify;
+}
+header .logo {
+    width: 10vw;
+    justify-content: right;
+}
+header .items_menu_hijas{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+header nav {
+    font-size: 14px;
+    background-color: brown;
+    
+}

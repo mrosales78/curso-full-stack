@@ -1,25 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+
+
 form{
     display: flex;
     flex-direction: column;
 
+    }
 
-}
 body{
+    flex-direction: column;
     display: flex;
 justify-content: center;
 align-items: center;
 height: 100vh;
-background-color: blueviolet
-
-
-
+background: linear-gradient(rgba(53, 82, 66, 0.5), rgba(47, 80, 63, 0.6)),url(./jardin\ de\ infantes.jpg) center, no-repeat;
+background-size: 100vw;
+margin: 0px;
 }
+
 div{
     font-size: 20px;
     font-weight: bold;
-
 
 }
 button:hover{
     background-color:lightgreen;
 }
+input{
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+}
+footer{
+
+    
+    margin-top: 6%;
+    margin-right: 80%;
+    font-size: 20px;
+}
+
+.pie-de-pagina{
+  
+    background-color: transparent
+    
+}
+
+
